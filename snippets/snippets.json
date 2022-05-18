@@ -1,13 +1,13 @@
 {
 	"Displays a dialog with several buttons.": {
 		"prefix": "galert",
-		"body": ["gg.alert('', 'ok', nil, nil)"],
+		"body": ["gg.alert('', 'ok', nil, nil)", ""],
 		"description": "Displays a dialog with several buttons."
 	},
 	"Displays the selection dialog from the list.": {
 		"prefix": "gchoice",
 		"body": [
-			"local menu = gg.choice({}, nil, \"title\")",
+			"local menu = gg.choice({}, nil, 'title')",
 			"if menu ~= nil then",
 			"    if menu == 1 then",
 			"        -- code",
@@ -16,14 +16,15 @@
 			"    elseif menu == 3 then",
 			"        -- code",
 			"    end",
-			"end"
+			"end",
+			""
 		],
 		"description": "Displays the selection dialog from the list."
 	},
 	"Displays the multiple choice dialog.": {
 		"prefix": "gmultiChoice",
 		"body": [
-			"local menu = gg.multiChoice({}, nil, \"title\")",
+			"local menu = gg.multiChoice({}, nil, 'title')",
 			"if menu ~= nil then",
 			"    if menu[1] == true then",
 			"        -- code",
