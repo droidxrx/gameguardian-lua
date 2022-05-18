@@ -1,0 +1,42 @@
+{
+	"Displays a dialog with several buttons.": {
+		"prefix": "galert",
+		"body": ["gg.alert('', 'ok', nil, nil)"],
+		"description": "Displays a dialog with several buttons."
+	},
+	"Displays the selection dialog from the list.": {
+		"prefix": "gchoice",
+		"body": [
+			"local menu = gg.choice({}, nil, \"title\")",
+			"if menu ~= nil then",
+			"    if menu == 1 then",
+			"        -- code",
+			"    elseif menu == 2 then",
+			"        -- code",
+			"    elseif menu == 3 then",
+			"        -- code",
+			"    end",
+			"end"
+		],
+		"description": "Displays the selection dialog from the list."
+	},
+	"Displays the multiple choice dialog.": {
+		"prefix": "gmultiChoice",
+		"body": [
+			"local menu = gg.multiChoice({}, nil, \"title\")",
+			"if menu ~= nil then",
+			"    if menu[1] == true then",
+			"        -- code",
+			"    end",
+			"    if menu[2] == true then",
+			"        -- code",
+			"    end",
+			"    if menu[3] == true then",
+			"        -- code",
+			"    end",
+			"end",
+			""
+		],
+		"description": "Displays the multiple choice dialog."
+	}
+}
