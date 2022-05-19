@@ -344,7 +344,7 @@ function gg.getRanges() end
 
 --- Get the list of memory regions of the selected process.
 --- @param filter? string The filter string. If specified, only those results that fall under the filter will be returned. Optional. The filter supports wildcards: ^ - the start of the data, $ - the end of the data, * - any number of any characters, ? - the one any character.
---- @return table --A list table with memory regions. Each element is a table with fields: state, start, end, type, name, internalName.
+--- @return {state:string, start:number, end:number, type:string, name:string, internalName:string}[] --A list table with memory regions. Each element is a table with fields: state, start, end, type, name, internalName.
 ---```
 --- print(gg.getRangesList())
 --- local t = gg.getRangesList();
