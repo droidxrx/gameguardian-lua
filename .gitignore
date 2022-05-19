@@ -1,5 +1,6 @@
 dist
-node_modules
+**/node_modules
 aa.lua
 **/*.lock
 **/*.vsix
+**/package-lock.json
