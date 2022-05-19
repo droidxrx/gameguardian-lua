@@ -4,7 +4,7 @@
 	"displayName": "GameGuardian Lua",
 	"description": "VSCode GameGuardian Intellisense",
 	"icon": "image/logo.png",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": {
 		"name": "droidxrx",
 		"email": "droidxrx@gmail.com"
