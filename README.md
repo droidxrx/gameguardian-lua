@@ -1,8 +1,8 @@
 # gameguardian-lua
 
-![version](https://vsmarketplacebadge.apphb.com/version-short/droidxrx.gameguardian-lua.svg)
-![installs](https://vsmarketplacebadge.apphb.com/installs-short/droidxrx.gameguardian-lua.svg)
-![downloads](https://vsmarketplacebadge.apphb.com/downloads-short/droidxrx.gameguardian-lua.svg)
+![version](https://vsmarketplacebadges.dev/version-short/droidxrx.gameguardian-lua.svg)
+![installs](https://vsmarketplacebadges.dev/installs-short/droidxrx.gameguardian-lua.svg)
+![downloads](https://vsmarketplacebadges.dev/downloads-short/droidxrx.gameguardian-lua.svg)
 
 ## Install In VSCode
 
