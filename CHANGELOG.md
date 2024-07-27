@@ -1,5 +1,11 @@
 # changelog
 
+## 0.0.4
+
+`2024-7-28`
+
+- Create `.luarc.json` on `workspaceFolder` when extension enable
+
 ## 0.0.3
 
 `2022-5-19`
