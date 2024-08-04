@@ -1,5 +1,11 @@
 # changelog
 
+## 0.0.5
+
+`2024-8-5`
+
+- Fix duplicate `workspace.library`
+
 ## 0.0.4
 
 `2024-7-28`
